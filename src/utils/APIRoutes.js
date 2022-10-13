@@ -1,8 +1,8 @@
-export const host = "http://localhost:8800";
-export const registerRoute = `${host}/api/auth/register`;
-export const loginRoute = `${host}/api/auth/login`;
-export const setAvatarRoute = `${host}/api/auth/setAvatar`;
-export const allUsersRoute = `${host}/api/auth/allUsers`;
-export const logoutRoute = `${host}/api/auth/logout`;
-export const sendMessageRoute = `${host}/api/message/addmsg`;
-export const getAllMessagesRoute = `${host}/api/message/getmsg`;
+export const host = "https://emmaroempire.com/jotty";
+export const registerRoute = `${host}/register`;
+export const loginRoute = `${host}/login`;
+export const setAvatarRoute = `${host}/setAvatar`;
+export const allUsersRoute = `${host}/allUsers`;
+export const logoutRoute = `${host}/logout`;
+export const sendMessageRoute = `${host}/addmsg`;
+export const getAllMessagesRoute = `${host}/getmsg`;
